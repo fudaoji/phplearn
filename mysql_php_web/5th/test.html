@@ -1,0 +1,582 @@
+<!DOCTYPE html><html style="font-size: 18.2467px;"><head>
+    <meta charset="UTF-8">
+    <title>WECHAT_EMPTY_TITLE</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no">
+    <script src="/qijian/wxuix/js/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+    <style id="__WXWORK_INNER_SCROLLBAR_CSS">::-webkit-scrollbar { width: 12px !important; height: 12px !important; }::-webkit-scrollbar-track:vertical {  }::-webkit-scrollbar-thumb:vertical { background-color: rgba(136, 141, 152, 0.5) !important; border-radius: 10px !important; background-clip: content-box !important; border:2px solid transparent !important; } ::-webkit-scrollbar-track:horizontal {  }::-webkit-scrollbar-thumb:horizontal { background-color: rgba(136, 141, 152, 0.5) !important; border-radius: 10px !important; background-clip: content-box !important; border:2px solid transparent !important; } ::-webkit-resizer { display: none !important; }</style>
+
+
+
+
+
+    <script src="/qijian/wxuix/js/mui.js"></script>
+    <link href="/qijian/wxuix/css/mui.min0.1.0.css?v=0.4.0" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="/qijian/wxuix/css/find3.1.css?v=0.4.0">
+    <script src="/qijian/wxuix/js/common3.3.js?v=3.8.0" type="text/javascript" charset="utf-8"></script>
+    <script src="/qijian/js/wxUtils.js?v=0.0.5.5" type="text/javascript" charset="utf-8"></script>
+
+    <link rel="stylesheet" type="text/css" href="/qijian/wxuix/css/common3.3.css?v=0.4.0">
+    <script type="text/javascript" src="/qijian/js/js-sdk-2.3.0/dist/qiniu.min.js?v=0.0.1"></script>
+    <script type="text/javascript" src="/qijian/wxuix/js/qiniuHandel.js?v=0.0.5"></script>
+    <link rel="stylesheet" type="text/css" href="/qijian/wxuix/newCss/common/yiqihaiCommon.css?v=0.10.0">
+    <link rel="stylesheet" type="text/css" href="/qijian/wxuix/newCss/common/optimization0.3.css?v=0.5.0">
+
+    <link rel="stylesheet" href="/qijian/wxuix/assets/vant.index.css?v=0.4.0">
+    <script src="/qijian/wxuix/js/vue.min.js" type="text/javascript" charset="utf-8"></script>
+    <script src="/qijian/wxuix/assets/vant.min.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="https://at.alicdn.com/t/font_1052269_0crtxavkcpar.css">
+
+    <script src="/qijian/wxuix/js/jq/animateBackground-plugin.js" type="text/javascript" charset="utf-8"></script>
+    <script src="/qijian/wxuix/js/jq/jquery.color.min.js" type="text/javascript" charset="utf-8"></script>
+    <script src="/qijian/wxuix/js/jq/jquery.animateNumber.min.js" type="text/javascript" charset="utf-8"></script>
+    <link rel="stylesheet" type="text/css" href="/qijian/wxuix/assets/home.css?v=0.8.0">
+    <script src="/qijian/wxuix/js/scroll.js" type="text/javascript" charset="utf-8"></script>
+    <style type="text/css">
+        .microLessonIntr .listenContent .content{height: 12rem;}
+        .microLessonIntr .listenContent .content ul li{overflow: hidden;}
+        .microLessonIntr .newPay .content{height: 26.16rem;}
+        .microLessonIntr .newPay .content ul li{height: 4.36rem;padding: 0;}
+    </style>
+</head>
+<body wxsigned="1" class="mui-wechat mui-wechat-6 mui-wechat-6-5 mui-wechat-6-5-2 mui-wechat-6-5-2-501">
+<div id="microLessonIntr" class="microLessonIntr microLessonIntrVip">
+    <audio preload="auto" id="audioTag" src="http://audio.qihaikj.com/HYX2.mp3" style="display: none;"></audio>
+    <div class="headerBg">
+        <div class="control">
+            <div class="playOrPause"><span class="icon-bofanganniu iconfont"></span></div>
+            <span class="playdate">00:00</span>
+            <div class="progress">
+                <div class="van-slider">
+                    <div class="van-slider__bar" style="width: 0%; height: 2px;">
+                        <span class="van-slider__button"></span>
+                    </div>
+                </div>
+            </div>
+            <span class="playdate">13:15</span>
+        </div>
+        <img src="http://photo.qihaikj.com/tkjm.png">
+    </div>
+    <div class="moreLesson">
+        <ul><li><div class="left" style="background-image: url(&quot;http://photo.qihaikj.com/YL.png&quot;);"><div><span class="icon-bofanganniu iconfont"></span></div></div> <div class="right">精准引流的3大境界与4大步骤，从此拓客如此轻松。</div></li><li><div class="left" style="background-image: url(&quot;http://photo.qihaikj.com/ZH.png&quot;);"><div><span class="icon-bofanganniu iconfont"></span></div></div> <div class="right">让你快速成交的系统转化思维与四大方法，简单有效！</div></li><li><div class="left" style="background-image: url(&quot;http://photo.qihaikj.com/LB.png&quot;);"><div><span class="icon-bofanganniu iconfont"></span></div></div> <div class="right">全员营销、团队裂变，让业绩几何级增长的密码！</div></li><li><div class="left" style="background-image: url(&quot;http://photo.qihaikj.com/3.%E8%AF%BE%E7%A8%8B%E5%88%97%E8%A1%A8_%E7%9B%AE%E5%BD%95_03.png&quot;);"><div><span class="icon-bofanganniu iconfont"></span></div></div> <div class="right">“商业联盟大礼包+数据追踪”精准引流全新模式</div></li></ul></div> <div class="qyjsDiv detailsIntroduce"><div class="qyjsTitle"><div class="left"></div> <div class="center">399元权益介绍</div></div> <div class="content"><img src="/qijian/wxuix/img/example/example6.png"> <div class="payBtn"><img onclick="payment('3')" src="/qijian/wxuix/img/icon/pay399btn.png"></div></div></div> <div class="qyjsDiv listenContent"><div class="qyjsTitle"><div class="left"></div> <div class="center">在听课 (<span id="listenContentNum">1288</span>人）</div></div> <div class="content"><ul><li style="display: list-item; opacity: 0.481155;"><img src="http://photo.qihaikj.com/97b260d1-f6e2-4d08-b6cc-7fd43f054105"><span>秋雨邀</span></li><li><img src="http://photo.qihaikj.com/def55c76-0f83-4c89-a218-27258597810e"><span>长弓三</span></li><li><img src="http://photo.qihaikj.com/53c5caa3-3b90-4e49-9590-3eda26cc7049"><span>. .</span></li><li><img src="http://photo.qihaikj.com/a2ecde8e-a8c4-4f59-9304-91d90308a91f"><span>田卫东</span></li><li><img src="http://photo.qihaikj.com//qjfiles/qjcompanys/richinfo/20180730/tempcom/tempunion/72bea722-63e3-4dd9-81d1-c19080faeb1e.jpg"><span>A摄影</span></li><li><img src="http://photo.qihaikj.com/8d85b7c7-865f-4f6e-ab59-f822b49b2796"><span>霞</span></li><li><img src="http://photo.qihaikj.com/qjfiles/qjcompanys/richinfo/20180617/tempcom/tempunion/15121ea4-5ce3-49bc-9039-51b0ff2b024b.jpg"><span>甜甜的</span></li><li><img src="http://photo.qihaikj.com/d28020e4-7eb2-4cbe-97d6-cef7273dbc85"><span>唐诚五</span></li><li><img src="http://photo.qihaikj.com/17e68176-a304-4f5d-812d-de964d59896f"><span>善德</span></li><li><img src="http://photo.qihaikj.com/9f6d1f41-f023-4a37-a74e-e4e1a87d4e72"><span>囡度��</span></li><li><img src="http://photo.qihaikj.com/37eacc41-4e91-484f-8765-ecd797623c2e"><span>青山翠</span></li><li><img src="http://photo.qihaikj.com//qijian/wxuix/img/qj/222_03.png"><span>卢舒娜</span></li></ul></div></div> <div class="qyjsDiv newPay"><div class="qyjsTitle"><div class="left"></div> <div class="center">新付费</div></div> <div class="content myscroll"><ul><li style="margin-top: 0px;"><img src="http://photo.qihaikj.com/aeffa92f-3e2c-4488-a8ff-9250958a2c04"> <div class="center"><p>邵龙昌</p></div> <div class="bill"><img src="/qijian/wxuix/img/icon/finishpay.png">
+    已支付<b>￥</b>399.00
+</div></li><li style="margin-top: 0px;"><img src="http://photo.qihaikj.com/FsYqgudrWS9ZYFOevbg8QLuuiFrP"> <div class="center"><p>张娟娟 Elena</p></div> <div class="bill"><img src="/qijian/wxuix/img/icon/finishpay.png">
+    已支付<b>￥</b>399.00
+</div></li><li><img src="http://photo.qihaikj.com/90e7d63c-ca08-482e-abb3-6d87f99591e1"> <div class="center"><p>中信红木（烟台）林卫强</p></div> <div class="bill"><img src="/qijian/wxuix/img/icon/finishpay.png">
+    已支付<b>￥</b>399.00
+</div></li><li><img src="http://photo.qihaikj.com/49232538-06d4-48e3-b518-6048c8fe687c"> <div class="center"><p>M</p></div> <div class="bill"><img src="/qijian/wxuix/img/icon/finishpay.png">
+    已支付<b>￥</b>399.00
+</div></li><li><img src="http://photo.qihaikj.com/qjfiles/qjcompanys/richinfo/20180721/tempcom/tempunion/d5fa9c94-c065-4e90-b1bc-51ce2cfa6e9d.jpg"> <div class="center"><p>悦芙</p></div> <div class="bill"><img src="/qijian/wxuix/img/icon/finishpay.png">
+    已支付<b>￥</b>399.00
+</div></li><li><img src="http://photo.qihaikj.com/f24a1867-f8d5-442d-8b6f-60b4f866fe5d"> <div class="center"><p>林枫@²⁰¹⁹</p></div> <div class="bill"><img src="/qijian/wxuix/img/icon/finishpay.png">
+    已支付<b>￥</b>399.00
+</div></li><li><img src="http://photo.qihaikj.com/049b4e40-103a-4ab5-be51-0f4b5436adf0"> <div class="center"><p>a明</p></div> <div class="bill"><img src="/qijian/wxuix/img/icon/finishpay.png">
+    已支付<b>￥</b>399.00
+</div></li><li><img src="http://photo.qihaikj.com/8ab848bb-ec8d-44ae-8417-2b6c6d4bc1ec"> <div class="center"><p>新天地婚纱摄影～管家号</p></div> <div class="bill"><img src="/qijian/wxuix/img/icon/finishpay.png">
+    已支付<b>￥</b>399.00
+</div></li><li><img src="http://photo.qihaikj.com/1d36d167-bcfc-4f6e-be33-a13074d0fb45"> <div class="center"><p>老高</p></div> <div class="bill"><img src="/qijian/wxuix/img/icon/finishpay.png">
+    已支付<b>￥</b>399.00
+</div></li><li><img src="http://photo.qihaikj.com/833e8869-0041-4d0e-a14d-9d78a8ea6a00"> <div class="center"><p>香港冰芙洁陕西分公司</p></div> <div class="bill"><img src="/qijian/wxuix/img/icon/finishpay.png">
+    已支付<b>￥</b>399.00
+</div></li><li><img src="http://photo.qihaikj.com/fc13f61e-f5d9-4fdc-ae26-b782dfc839a2"> <div class="center"><p>蒋安兴</p></div> <div class="bill"><img src="/qijian/wxuix/img/icon/finishpay.png">
+    已支付<b>￥</b>399.00
+</div></li><li><img src="http://photo.qihaikj.com/a284560a-e46b-4505-aff3-75d9fb55b7da"> <div class="center"><p>贾镇豪18663868419</p></div> <div class="bill"><img src="/qijian/wxuix/img/icon/finishpay.png">
+    已支付<b>￥</b>399.00
+</div></li><li><img src="http://photo.qihaikj.com/2fd510f9-34e0-45a5-b50b-ea5f1aafdaf7"> <div class="center"><p>🏮何昱东📍</p></div> <div class="bill"><img src="/qijian/wxuix/img/icon/finishpay.png">
+    已支付<b>￥</b>399.00
+</div></li><li><img src="http://photo.qihaikj.com/9d5a4b47-839c-4b8e-8d22-267bb78127ca"> <div class="center"><p>平安</p></div> <div class="bill"><img src="/qijian/wxuix/img/icon/finishpay.png">
+    已支付<b>￥</b>399.00
+</div></li><li><img src="http://photo.qihaikj.com/5069fae3-f24c-4b3b-aae2-24ee3404215a"> <div class="center"><p>李兴民</p></div> <div class="bill"><img src="/qijian/wxuix/img/icon/finishpay.png">
+    已支付<b>￥</b>399.00
+</div></li><li><img src="http://photo.qihaikj.com/1c290eeb-3cbf-4ce9-aeee-1a80a443f6ca"> <div class="center"><p>刚新</p></div> <div class="bill"><img src="/qijian/wxuix/img/icon/finishpay.png">
+    已支付<b>￥</b>399.00
+</div></li><li><img src="http://photo.qihaikj.com/60a28e3f-3922-4e25-9136-430d59699820"> <div class="center"><p>马掌柜</p></div> <div class="bill"><img src="/qijian/wxuix/img/icon/finishpay.png">
+    已支付<b>￥</b>399.00
+</div></li><li><img src="http://photo.qihaikj.com/Fja0dKjPAq9f7Noe1Ejw780p1IqX"> <div class="center"><p>菡醇741319</p></div> <div class="bill"><img src="/qijian/wxuix/img/icon/finishpay.png">
+    已支付<b>￥</b>399.00
+</div></li><li><img src="http://photo.qihaikj.com/ef6fc980-e32f-4e37-a50a-b223a372e2eb"> <div class="center"><p>Sally</p></div> <div class="bill"><img src="/qijian/wxuix/img/icon/finishpay.png">
+    已支付<b>￥</b>399.00
+</div></li><li><img src="http://photo.qihaikj.com/c08dad2a-f775-46a7-a1f2-d407f44f7cf1"> <div class="center"><p>🍀3Q中考周顺起16637057652</p></div> <div class="bill"><img src="/qijian/wxuix/img/icon/finishpay.png">
+    已支付<b>￥</b>399.00
+</div></li><li><img src="http://photo.qihaikj.com/cd6fcd50-408d-4c44-b94c-37d1cb3d1917"> <div class="center"><p>3Q中考宋建波18037498810</p></div> <div class="bill"><img src="/qijian/wxuix/img/icon/finishpay.png">
+    已支付<b>￥</b>399.00
+</div></li><li><img src="http://photo.qihaikj.com/FhaHL2HWtL7hc7iMYUMp_mR_X73l"> <div class="center"><p>马小蒙</p></div> <div class="bill"><img src="/qijian/wxuix/img/icon/finishpay.png">
+    已支付<b>￥</b>399.00
+</div></li><li><img src="http://photo.qihaikj.com/FmZ60JCyfwiih33HlHAtnbVRUM17"> <div class="center"><p>苗致</p></div> <div class="bill"><img src="/qijian/wxuix/img/icon/finishpay.png">
+    已支付<b>￥</b>399.00
+</div></li><li><img src="http://photo.qihaikj.com/FvAljuaGawie--lo2PEJ-3ZcDCGV"> <div class="center"><p>王子军</p></div> <div class="bill"><img src="/qijian/wxuix/img/icon/finishpay.png">
+    已支付<b>￥</b>399.00
+</div></li><li><img src="http://photo.qihaikj.com/ecf8ae49-8703-4939-9950-efadd4174cc3"> <div class="center"><p>福宝小猪</p></div> <div class="bill"><img src="/qijian/wxuix/img/icon/finishpay.png">
+    已支付<b>￥</b>399.00
+</div></li><li><img src="http://photo.qihaikj.com/159cd203-9ed6-474e-b8c3-7f8710b63834"> <div class="center"><p>发发419</p></div> <div class="bill"><img src="/qijian/wxuix/img/icon/finishpay.png">
+    已支付<b>￥</b>399.00
+</div></li><li><img src="http://photo.qihaikj.com/22f82f95-5f97-47fd-aa47-0894fc341541"> <div class="center"><p>洪德花</p></div> <div class="bill"><img src="/qijian/wxuix/img/icon/finishpay.png">
+    已支付<b>￥</b>399.00
+</div></li><li><img src="http://photo.qihaikj.com/FmKymSjQAFBYvoNGAVemCn7U1yi1"> <div class="center"><p>志愿填报莫北老师</p></div> <div class="bill"><img src="/qijian/wxuix/img/icon/finishpay.png">
+    已支付<b>￥</b>399.00
+</div></li><li><img src="http://photo.qihaikj.com/78e99126-1e7f-4842-b68e-272efa8c2540"> <div class="center"><p>马马煜🎈</p></div> <div class="bill"><img src="/qijian/wxuix/img/icon/finishpay.png">
+    已支付<b>￥</b>399.00
+</div></li><li><img src="http://photo.qihaikj.com/7e8faa06-bcc3-4c62-b289-ddc864178b6d"> <div class="center"><p>Joy</p></div> <div class="bill"><img src="/qijian/wxuix/img/icon/finishpay.png">
+    已支付<b>￥</b>399.00
+</div></li><li><img src="http://photo.qihaikj.com/2f995538-d1cb-4283-8dfb-b326405cf85c"> <div class="center"><p>爪 子</p></div> <div class="bill"><img src="/qijian/wxuix/img/icon/finishpay.png">
+    已支付<b>￥</b>399.00
+</div></li><li><img src="http://photo.qihaikj.com/4842c98d-9a7a-4b09-9d5b-3ee035e6b7a5"> <div class="center"><p>Angel娟娟💗</p></div> <div class="bill"><img src="/qijian/wxuix/img/icon/finishpay.png">
+    已支付<b>￥</b>399.00
+</div></li><li><img src="http://photo.qihaikj.com/ceb4cf08-24b3-46f5-8188-b66763044f49"> <div class="center"><p>Coco</p></div> <div class="bill"><img src="/qijian/wxuix/img/icon/finishpay.png">
+    已支付<b>￥</b>399.00
+</div></li><li><img src="http://photo.qihaikj.com/67bd429f-2287-4059-913a-a0cfc2ad241e"> <div class="center"><p>Anna</p></div> <div class="bill"><img src="/qijian/wxuix/img/icon/finishpay.png">
+    已支付<b>￥</b>399.00
+</div></li><li><img src="http://photo.qihaikj.com/FmvzYOC1zOaqWnhL_TP1CSgdanGE"> <div class="center"><p>韦博英语王老师natasha</p></div> <div class="bill"><img src="/qijian/wxuix/img/icon/finishpay.png">
+    已支付<b>￥</b>399.00
+</div></li><li><img src="http://photo.qihaikj.com/1bc0df3e-7158-4431-af80-fc5b4af827f0"> <div class="center"><p>Lisa</p></div> <div class="bill"><img src="/qijian/wxuix/img/icon/finishpay.png">
+    已支付<b>￥</b>399.00
+</div></li><li><img src="http://photo.qihaikj.com/a62f61c8-b48f-4fb1-ad58-69d382b1e4c9"> <div class="center"><p>陈琦</p></div> <div class="bill"><img src="/qijian/wxuix/img/icon/finishpay.png">
+    已支付<b>￥</b>399.00
+</div></li><li><img src="http://photo.qihaikj.com/66a02c67-66bd-4987-9f0f-18d7514f167d"> <div class="center"><p>Eris</p></div> <div class="bill"><img src="/qijian/wxuix/img/icon/finishpay.png">
+    已支付<b>￥</b>399.00
+</div></li><li><img src="http://photo.qihaikj.com/FgCJ-swSRQVboUDT8pnk7dl4KCcK"> <div class="center"><p>Nicole丸</p></div> <div class="bill"><img src="/qijian/wxuix/img/icon/finishpay.png">
+    已支付<b>￥</b>399.00
+</div></li><li><img src="http://photo.qihaikj.com/870c4088-d7be-412f-b6f9-c0ffa5f14817"> <div class="center"><p>穆梦慧</p></div> <div class="bill"><img src="/qijian/wxuix/img/icon/finishpay.png">
+    已支付<b>￥</b>399.00
+</div></li></ul></div></div> <img src="/qijian/wxuix/img/icon/entergroupBtn.png" class="entergroupBtn"> <!----></div>
+<div class="microLessonIntrFooterVip">
+    <ul>
+        <li onclick="window.location.href='/qijian/qjcom/comUserlogin/wxGoFind.do#'">首页</li>
+        <li onclick="wxrelayshare()">分享 <img src="/qijian/wxuix/img/icon/homeshareWhite.png"></li>
+    </ul>
+</div>
+<script type="text/javascript">
+    var app = new Vue({
+        el: '#microLessonIntr',
+        data: {
+            listenContentList:[
+//			  			{name:'陈晓华陈晓华陈晓华陈晓华陈晓华陈晓华陈晓华陈晓华',src:'/qijian/wxuix/img/find/txx.png'},
+
+            ],
+            moreLessonList:[
+                /* {title:'PS福利资源｜手工墨水滴落纹理 INK DRIPS AND DROPS TEXTURES 设计杂谈',src:'/qijian/wxuix/img/example/example1.png',play:true},
+                {title:'PS福利资源｜手工墨水滴落纹理 INK DRIPS AND DROPS TEXTURES 设计杂谈',src:'/qijian/wxuix/img/example/example1.png',play:false},*/
+            ],
+            newPayList:[
+//			  			{src:'/qijian/wxuix/img/find/txx.png',name:'陈晓华陈晓华陈晓华陈晓华陈晓华陈晓华陈晓华陈晓华'},
+//			  			{src:'/qijian/wxuix/img/find/txx.png',name:'陈晓华'},
+            ],
+            microLessonplay:false,
+            playTime:"00:00",
+            playAllTime:"00:00",
+            progressWidth:null,
+            timer: null,
+            audioSrc:"",
+            playtab:null,
+            lessonNum:null,
+            entergroupflag:false,
+            listenContentListLimit:[],
+            randomNumber:null
+
+        },
+        created:function(){
+            var that = this;
+            this.obtainCurrent();
+            this.lessonNum = parseInt(this.randomNumber);
+
+            if(document.documentElement.clientWidth>650){
+                var htmlTag = document.getElementsByTagName("html")[0];
+                htmlTag.style.fontSize='14px';
+                $('body,html').css({'width':'650px','height':'100%'})
+                $('body,html').css('margin','0 auto');
+                $('body *').each(function(){
+                    if($(this).css('position')=='fixed'){
+                        $(this).css('width','650px');
+                    }
+                })
+                $('.flexDiv').css({'width':'650px','margin':'0 auto'})
+            }else{
+                var bw = (document.documentElement.clientWidth/750)*23+"px";
+                var htmlTag = document.getElementsByTagName("html")[0];
+                htmlTag.style.fontSize=bw;
+            }
+
+            this.loadMoreLessonList();
+            this.loadNewPayList();
+            this.loadListenContentList();
+            var home8_mixin={
+                init_dataCount: function(num) {
+                    var percent_number_step = $.animateNumber.numberStepFactories.append('');
+                    $('#listenContentNum').animateNumber({
+                        number: num,
+                        easing: 'easeInQuad',
+                        numberStep: percent_number_step
+                    }, 1000);
+                }
+
+            }
+
+
+            setInterval(function() {
+                that.obtainCurrent();
+                var num = that.randomNum(that.randomNumber-10,that.randomNumber+10);
+                home8_mixin.init_dataCount(num);
+            }, 3000);
+
+        },
+        mounted:function(){
+            var that = this;
+        },
+        methods: {
+            onChange(value) {
+                this.playTime = this.secondToTimestamp(this.timestampToSecond(this.playAllTime)*value/100);
+                this.$refs.audioTag.currentTime = Math.floor((parseInt(this.playAllTime.split(':')[0])*60+parseInt(this.playAllTime.split(':')[1]))*value/100)
+//			    		var second = Math.floor((parseInt(this.playAllTime.split(':')[0])*60+parseInt(this.playAllTime.split(':')[1]))*value/100)%60;
+//			    		if(second<10){
+//			    			second = '0'+second;
+//			    		}
+//			    		this.playTime = '0'+Math.floor((parseInt(this.playAllTime.split(':')[0])*60+parseInt(this.playAllTime.split(':')[1]))*value/6000)+':'+second
+//
+            },
+            playCurrent(){
+//			    		this.$refs.audioTag.currentTime = 5;
+            },
+            secondToTimestamp(second){
+                var min = Math.floor(second/60);
+                if(min<10){
+                    min = '0'+min;
+                }
+                var sec = Math.floor(second)%60;
+                if(sec<10){
+                    sec = '0'+sec;
+                }
+                return min+':'+sec;
+            },
+            timestampToSecond(timestamp){
+                return (parseInt(timestamp.split(':')[0]*60)+parseInt(timestamp.split(':')[1]));
+            },
+            countDown(){
+                var thatplay = this;
+                this.timer = setInterval(function(){
+                    thatplay.playTime = thatplay.secondToTimestamp(parseInt(thatplay.timestampToSecond(thatplay.playTime))+1)
+                },1000)
+            },
+            play(){
+                this.microLessonplay = !this.microLessonplay;
+                if(this.microLessonplay){
+                    this.$refs.audioTag.play();
+                    this.countDown();
+                    this.moreLessonList[this.playtab].play = true;
+                }else{
+                    this.$refs.audioTag.pause();
+                    clearInterval(this.timer);
+                    this.moreLessonList[this.playtab].play = false;
+                }
+            },
+            choose(index){
+                var that = this;
+                if(this.playtab==index){
+                    this.play();
+                }else{
+                    this.moreLessonList.forEach(function(value , index , array){
+                        value.play = false;
+                    })
+                    this.playTime = "00:00"
+                    this.audioSrc = this.moreLessonList[index].voiceurl;
+                    this.playtab = index;
+                    var length = (parseInt(this.playTime.split(':')[0])*60+parseInt(this.playTime.split(':')[1]))/(parseInt(this.playAllTime.split(':')[0])*60+parseInt(this.playAllTime.split(':')[1]))*100
+                    if(!!length){
+                        this.progressWidth =length
+                    }
+                    var muAudio = this.$refs.audioTag;
+                    if(muAudio != null){
+                        var duration;
+                        muAudio.load();
+                        muAudio.oncanplay = function () {
+                            that.playAllTime = that.secondToTimestamp(muAudio.duration);
+                            that.microLessonplay = false;
+                            clearInterval(that.timer);
+                            that.play();
+                        }
+                    }
+                }
+
+            },
+            ended(){
+                this.microLessonplay = false;
+                console.log(this.microLessonplay)
+                this.$refs.audioTag.pause();
+                clearInterval(this.timer);
+            },
+            loadMoreLessonList :function(){
+                var This = this;
+                $.ajax({
+                    url:"/qijian/qjcom/comCompany/getCourseVoice.do",
+                    type:"post",
+                    dataType:"json",
+                    success:function(data){
+                        if(data.success){
+                            $.each(data.rows,function(index,value){
+                                This.moreLessonList.push({
+                                    infoid:value.infoid,
+                                    picurl:value.picurl,
+                                    title:value.title,
+                                    voiceurl:value.voiceurl,
+                                    play:false
+                                });
+                            });
+                            This.audioSrc = This.moreLessonList[0].voiceurl;
+                            This.playtab = 0;
+                            var length = (parseInt(This.playTime.split(':')[0])*60+parseInt(This.playTime.split(':')[1]))/(parseInt(This.playAllTime.split(':')[0])*60+parseInt(This.playAllTime.split(':')[1]))*100
+                            if(!!length){
+                                This.progressWidth =length
+                            }
+                            var muAudio = This.$refs.audioTag;
+                            if(muAudio != null){
+                                var duration;
+                                muAudio.load();
+                                muAudio.oncanplay = function () {
+                                    This.playAllTime = This.secondToTimestamp(muAudio.duration)
+                                }
+
+                                muAudio.addEventListener("canplay", function(){
+                                    This.playAllTime = This.secondToTimestamp(muAudio.duration)
+                                });
+
+                            }
+                        }
+                    }
+                });
+            },
+            loadNewPayList :function(){
+                var This = this;
+                $.ajax({
+                    url:"/qijian/qjcom/comUserlogin/getLastVip.do",
+                    data:{
+                        membertype:"3",
+                        rows:20
+                    },
+                    type:"post",
+                    dataType:"json",
+                    success:function(data){
+                        if(data.success){
+                            $.each(data.rows,function(index,value){
+                                value.name=value.remack;
+                                value.src = getHeadPic(value.infoareaid,"http://photo.qihaikj.com/")
+                                This.newPayList.push(value);
+                            });
+                            setTimeout(function(){
+                                var scrtime;
+                                scrtime = setInterval(function(){
+                                    var $ul = $(".newPay .content ul");
+                                    var liHeight = $ul.find("li:last").height();
+                                    $ul.find("li:last").css('margin-top',-liHeight)
+                                    $ul.find("li:last").prependTo($ul);
+                                    $ul.find("li:first").animate({marginTop : 0},700,function(){
+
+//							                    $ul.find("li:first").hide();
+//							                    $ul.css({marginTop:'0'});
+//							                    $ul.find("li:first").fadeIn(2000);
+                                    });
+//							                $ul.find("li").eq(":last").fadeOut(2000);
+                                },1400);
+                            },14)
+                        }
+                    }
+                });
+            },
+            loadListenContentList :function(){
+                var This =this;
+                $.ajax({
+                    url:"/qijian/qjcom/comUser/useRandomList.do",
+                    type:"post",
+                    dataType:"json",
+                    success:function(data){
+                        if(data.success){
+                            $.each(data.rows,function(index,value){
+                                value.name=(!!value.username&&value.username.length>3)?value.username.substr(0,3):value.username;
+                                value.src = getHeadPic(value.userheadpic,"http://photo.qihaikj.com/")
+                                This.listenContentList.push(value);
+                            });
+
+                            setTimeout(function(){
+                                This.listenContentListLimit=This.listenContentList.slice(0,12)
+                                var scrtimePay;
+                                var indexthis = 0;
+                                scrtimePay = setInterval(function(){
+                                    console.log(indexthis)
+                                    console.log(This.listenContentList.length)
+                                    if(indexthis+12==This.listenContentList.length){
+                                        indexthis=-12
+                                    }
+                                    var $ul = $(".listenContent .content ul");
+                                    This.listenContentListLimit.unshift(This.listenContentList[12+indexthis])
+                                    $ul.find("li:first").hide();
+                                    $ul.find("li:first").fadeIn(2000);
+                                    This.listenContentListLimit.splice(This.listenContentListLimit.length-1,1)
+//							                $ul.find("li:last").animate({width : 0,height:0},2000,function(){
+//
+//							                });
+//							                $ul.find("li").eq(":first").fadeOut(2000);
+                                    indexthis = indexthis+1;
+                                },2000);
+
+                            },14)
+                        }
+                    }
+                });
+            },
+            enter(){
+                this.entergroupflag = true;
+            },
+            randomNum(minNum,maxNum){
+                switch(arguments.length){
+                    case 1:
+                        return parseInt(Math.random()*minNum+1,10);
+                        break;
+                    case 2:
+                        return parseInt(Math.random()*(maxNum-minNum+1)+minNum,10);
+                        break;
+                    default:
+                        return 0;
+                        break;
+                }
+            },
+            obtainCurrent(){
+                var that = this;
+                var hours = new Date().getHours();
+                var minutes = new Date().getMinutes();
+                var seconds = new Date().getMilliseconds();
+                var currentSecond = hours*60*60+minutes*60+seconds;
+                if(currentSecond<6*60*60||currentSecond>=23*60*60){
+                    if(currentSecond<6*60*60){
+                        var radian = Math.PI*(currentSecond-0)/(6*60*60) ;
+                    }else{
+                        var radian = Math.PI*(currentSecond-23*60*60)/(0.5*60*60) ;
+                    }
+                    that.randomNumber = 100*Math.sin(radian)+300;
+                }else if(currentSecond>=6*60*60&&currentSecond<10*60*60){
+                    var radian = Math.PI*(currentSecond-6*60*60)/(4*60*60) ;
+                    that.randomNumber = 2000*Math.sin(radian)+(currentSecond-6*60*60)/(4*60*60)*100+1000;
+                }else if(currentSecond>=10*60*60&&currentSecond<14*60*60){
+                    var radian = Math.PI*(currentSecond-10*60*60)/(4*60*60) ;
+                    that.randomNumber = 2000*Math.sin(radian)+(currentSecond-10*60*60)/(4*60*60)*100+1000;
+                }else if(currentSecond>=14*60*60&&currentSecond<18*60*60){
+                    var radian = Math.PI*(currentSecond-14*60*60)/(4*60*60) ;
+                    that.randomNumber = 2000*Math.sin(radian)+(currentSecond-14*60*60)/(4*60*60)*100+1000;
+                }else if(currentSecond>=18*60*60&&currentSecond<23*60*60){
+                    var radian = Math.PI*(currentSecond-18*60*60)/(5*60*60) ;
+                    that.randomNumber = 2000*Math.sin(radian)+(currentSecond-18*60*60)/(5*60*60)*100+1000;
+                }
+            }
+        },
+        watch:{
+            playTime:function(){
+                this.progressWidth = this.timestampToSecond(this.playTime)/this.timestampToSecond(this.playAllTime)*100;
+                if(this.playTime==this.playAllTime){
+                    this.playTime="00:00";
+                    this.progressWidth = 0;
+                    this.ended();
+                    this.$refs.audioTag.currentTime = 0;
+                }
+            }
+        }
+
+
+    })
+</script>
+
+<script src="https://res.wx.qq.com/open/js/jweixin-1.0.0.js"></script>
+<script type="text/javascript">
+    function payment(membertype){
+        $.ajax({
+            url : "/qijian/qjbusi/busiComOrderinfo/vipPlaceOrder.do",
+            data :{
+                membertype : membertype,
+                vipFromUser :""||""
+            },
+            type:"post",
+            dataType:"json",
+            success:function(obj){
+                if(obj.success){
+                    WeixinJSBridge.invoke('getBrandWCPayRequest',{
+                        "appId" : obj.appId, //公众号名称，由商户传入
+                        "timeStamp":obj.timeStamp, //时间戳，自 1970 年以来的秒数
+                        "nonceStr" : obj.nonceStr,//随机串
+                        "package" : obj.mypackage,//<span style="font-family:微软雅黑;">商品包信息</span>
+                        "signType" : obj.signType,//微信签名方式:
+                        "paySign" : obj.paySign //微信签名
+                    },function(res){
+                        if(res.err_msg == "get_brand_wcpay_request:ok" ) {
+                            mui.alert('支付成功,去选赠品','去选购',function(){
+                                window.location.href="/qijian/wx/com/app/giftList.html?v="+(new Date()).getTime();
+                            });
+
+                            sendWxMessageNotice({
+                                touserid:"79d7f970-41ac-4da8-a345-62728b024240",
+                                templateId:"9",
+                                templateContent:JSON.stringify({
+                                    first: "恭喜您开通年度VIP会员。同时获赠100个9.9会员名额，赠送名额有效期为三个月，三个月之后清零。",
+                                    keyword1: "傅道集",
+                                    keyword2: "399元",
+                                    keyword3: new Date().format("yyyy-MM-dd HH:mm:ss"),
+                                    remark: "点击开启亿企嗨之旅"
+                                }),
+                                hoplinks:window.location.protocol+"//"+window.location.host+"/qijian/qjcom/comUserlogin/wxGoFind.do#"
+                            });
+
+                        }else{
+                            /* alert("fail"); */
+                        }
+                    });
+                }
+                else{
+                    mui.alert(obj.msg);
+                }
+
+
+            }
+        });
+    }
+    $(function(){
+        wxUtils.manage({
+            share:true,
+            title:"“引流+转化+裂变”3大经典课程助力团队裂变、业绩倍增！",
+            desc : "3节课，解决99%的网络营销难题！",
+            link : document.location.protocol+"//"+window.location.host+"/qijian/wx/com/app/lessonNoVip.jsp",
+            linkParam : {
+                fromuser:"79d7f970-41ac-4da8-a345-62728b024240",
+                vipFromUser :"79d7f970-41ac-4da8-a345-62728b024240"
+            },
+            imgUrl : "http://photo.qihaikj.com/banner.png",
+        })
+    })
+    function addKeyFrames(y) {
+        var style = document.createElement('style');
+        style.type = 'text/css';
+        var keyFrames = '\
+		    @-webkit-keyframes rowup {\
+		        0% {\
+		            -webkit-transform: translate3d(0, 0, 0);\
+		            transform: translate3d(0, 0, 0);\
+		        }\
+		        100% {\
+		            -webkit-transform: translate3d(0, A_DYNAMIC_VALUE, 0);\
+		            transform: translate3d(0, A_DYNAMIC_VALUE, 0);\
+		        }\
+		    }\
+		    @keyframes rowup {\
+		        0% {\
+		            -webkit-transform: translate3d(0, 0, 0);\
+		            transform: translate3d(0, 0, 0);\
+		        }\
+		        100% {\
+		            -webkit-transform: translate3d(0, A_DYNAMIC_VALUE, 0);\
+		            transform: translate3d(0, A_DYNAMIC_VALUE, 0);\
+		        }\
+		    }';
+        style.innerHTML = keyFrames.replace(/A_DYNAMIC_VALUE/g, y);
+        document.getElementsByTagName('head')[0].appendChild(style);
+    }
+
+</script>
+
+
+
+
+</body></html>
